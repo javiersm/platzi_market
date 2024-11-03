@@ -2,6 +2,8 @@ package com.platzi.platzi_market.persistence.entity;
 
 import jakarta.persistence.*;
 
+import java.util.List;
+
 @Entity
 @Table(name = "clientes")
 public class Cliente {
@@ -21,6 +23,8 @@ public class Cliente {
 
     private String email;
 
+    @OneToMany(mappedBy = "compra")
+    private List<Compra> compras;
 
 
     public Integer getIdCliente() {
@@ -69,5 +73,13 @@ public class Cliente {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public List<Compra> getCompras() {
+        return compras;
+    }
+
+    public void setCompras(List<Compra> compras) {
+        this.compras = compras;
     }
 }
