@@ -80,9 +80,9 @@ public class Producto {
         this.cantidadStock = cantidadStock;
     }
 
-    public Boolean getEstado() {
-        return estado;
-    }
+//    public Boolean getEstado() {
+//        return estado;
+//    }
 
     public void setEstado(Boolean estado) {
         this.estado = estado;
