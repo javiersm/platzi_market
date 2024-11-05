@@ -25,6 +25,7 @@ public class Producto {
     @Column(name = "cantidad_stock")
     private Integer cantidadStock;
 
+    @Column(name = "estado")
     private Boolean estado;
 
     @ManyToOne
@@ -80,9 +81,9 @@ public class Producto {
         this.cantidadStock = cantidadStock;
     }
 
-//    public Boolean getEstado() {
-//        return estado;
-//    }
+    public Boolean getEstado() {
+        return estado;
+    }
 
     public void setEstado(Boolean estado) {
         this.estado = estado;
