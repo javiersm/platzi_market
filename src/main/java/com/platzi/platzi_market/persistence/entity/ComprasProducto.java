@@ -3,7 +3,7 @@ package com.platzi.platzi_market.persistence.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "compras_producto")
+@Table(name = "compras_productos")
 public class ComprasProducto {
 
     @EmbeddedId
