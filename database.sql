@@ -1,3 +1,19 @@
+-- Database: spring_market
+
+-- DROP DATABASE IF EXISTS spring_market;
+
+CREATE DATABASE spring_market
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'Spanish_Spain.1252'
+    LC_CTYPE = 'Spanish_Spain.1252'
+    LOCALE_PROVIDER = 'libc'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1
+    IS_TEMPLATE = False;
+
+
 -- -----------------------------------------------------
 -- Table "CATEGORIAS"
 -- -----------------------------------------------------
@@ -34,7 +50,7 @@ CREATE TABLE  CLIENTES (
   "id" VARCHAR(20) NOT NULL,
   "nombre" VARCHAR(40) NULL,
   "apellidos" VARCHAR(100) NULL,
-  "celular" NUMERIC NULL,
+  "telefono" NUMERIC NULL,
   "direccion" VARCHAR(80) NULL,
   "correo_electronico" VARCHAR(70) NULL,
   PRIMARY KEY ("id"));
