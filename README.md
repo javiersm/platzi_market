@@ -9,7 +9,6 @@ Platzi Market is a simple e-commerce platform built with Java and Spring Boot. I
 ## Features
 
 - Product management
-- Customer registration and login
 - Order processing
 - Built with Spring Boot, Spring Data JPA, and a PostgreSQL database
 
