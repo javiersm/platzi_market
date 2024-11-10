@@ -21,6 +21,10 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 
+	// Swagger2 para poder documentar la API
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0'
+
+
 	runtimeOnly 'org.postgresql:postgresql'
 
 	// MapStruct para mapeo de clases https://mapstruct.org/

@@ -14,3 +14,7 @@
 
 
 3. 
+
+
+4. Documentacion con la API swagger
+   - http://localhost:8090/platzi-market/api/swagger-ui/index.html
