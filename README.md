@@ -14,4 +14,9 @@ Platzi Market is a simple e-commerce platform built with Java and Spring Boot. I
 
 ## Setup
 
-1. Clone the repository:
+
+## POSTMAN 
+
+Javi he guardado las llamadas en postman dentro de:
+
+- Dentro de "Java Spring" -> "spring_market"
